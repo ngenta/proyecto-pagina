@@ -1,0 +1,38 @@
+#imagenrota {
+ -webkit-transition: -webkit-transform 1s ease-out;
+ -moz-transition: -moz-transform 2s ease-out;
+ transition: transform 2s ease-out;
+}
+#imagenrota:hover {
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+font-family: 'Shadows Into Light', cursive;
+
+#body{
+background-image: url(imagenes/fondodelapag.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+    #body{
+        background-image: url(imagenes/negro.jpg)
+    }
+        }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+      #body{
+        background-image: url(imagenes/negro.jpg)
+    }
+        }
+
+
